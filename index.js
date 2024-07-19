@@ -27,3 +27,11 @@ console.log(brisius.lostLeg());
 console.log(brisius.birthday());
 console.log(brisius.birthday());
 console.log(brisius.birthday());
+
+console.clear();
+console.log('--------------------');
+
+import { Auto } from "./js/Auto.js";
+
+const audi = new Auto('Audi', '80', 'Raudona', 68, 7);
+console.log(audi);
