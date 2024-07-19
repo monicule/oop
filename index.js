@@ -35,4 +35,10 @@ import { Auto } from "./js/Auto.js";
 
 const audi = new Auto('Audi', '80', 'Raudona', 68, 7);
 console.log(audi);
-console.log(audi.startEngine());
+console.log(audi.startTheEngine());
+console.log(audi.turnOffTheEngine());
+console.log(audi.beginToDrive());
+console.log(audi.drive());
+console.log(audi.stopDriving());
+console.log(audi.fuelLeft());
+console.log(audi.refuel());
