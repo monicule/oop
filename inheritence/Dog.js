@@ -1,15 +1,11 @@
-export class Dog {
-    constructor(name) {
-        this.name = name;
-        this.legsCount = 4;
+import { Pet } from "./Pet.js";
 
+export class Dog extends Pet {
+    constructor(name, bread) {
+        super(name, bread);
+        this.animalType = 'dog';
+        this.sound = 'au';
+        this.emoji = '🐕';
+        this.emojiCount = 4;
     }
-
-
-    intro() {
-        return `Hello, my name is ${this.name}!`;
-    }
-
-    voice() {
-        return
-    }
+}
