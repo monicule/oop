@@ -6,5 +6,6 @@ export class Dolphin extends Fish {
         this.animalType = 'dolphin';
         this.sound = 'oooo';
         this.emoji = '🐬';
+        this.emojiCount = 3;
     }
 }
