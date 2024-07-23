@@ -6,7 +6,7 @@ export class Pet extends Animal {
         this.name = name;
         this.breed = breed;
         this.legsCount = 4;
-        this.animalType = '';
+        this.animalType = 'pet';
         this.sound = 'GARSAS';
         this.emoji = '👽';
         this.emojiCount = 10;
