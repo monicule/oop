@@ -28,5 +28,8 @@ console.log(burkulis.voice());
 const timis = new Hamster('Timis');
 console.log(timis.voice());
 
-const murka = new Pet('Murka');
+const murka = new Cat('Murka');
 console.log(murka.voice());
+
+const juodis = new Pigeon('Juodis');
+console.log(juodis.voice());
