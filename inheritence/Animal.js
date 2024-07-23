@@ -4,7 +4,6 @@ export class Animal {
         this.animalType = '';
         this.sound = '';
         this.emoji = '';
-        this.emojiCount = 1;
     }
 
     intro() {
