@@ -3,7 +3,7 @@ import { Dog } from "./inheritence/Dog.js";
 import { GoldenFish } from "./inheritence/GoldenFish.js";
 import { Pigeon } from "./inheritence/Pigeon.js";
 import { Hamster } from "./inheritence/Hamster.js";
-import { Pet } from "./inheritence/Pet.js";
+
 
 console.clear();
 
