@@ -2,9 +2,9 @@ export class Animal {
     constructor(name) {
         this.name = name;
         this.animalType = '';
-        this.sound = 'GARSAS';
+        this.sound = '';
         this.emoji = '';
-        this.emojiCount = 10;
+        this.emojiCount = 1;
     }
 
     intro() {
