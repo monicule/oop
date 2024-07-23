@@ -2,7 +2,8 @@ import { Cat } from "./inheritence/Cat.js";
 import { Dog } from "./inheritence/Dog.js";
 import { GoldenFish } from "./inheritence/GoldenFish.js";
 import { Pigeon } from "./inheritence/Pigeon.js";
-import { Hamster } from "./inheritence/Hamster.js"
+import { Hamster } from "./inheritence/Hamster.js";
+import { Pet } from "./inheritence/Pet.js";
 
 console.clear();
 
@@ -26,3 +27,6 @@ console.log(burkulis.voice());
 
 const timis = new Hamster('Timis');
 console.log(timis.voice());
+
+const murka = new Pet('Murka');
+console.log(murka.voice());
