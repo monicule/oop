@@ -2,6 +2,7 @@ import { Cat } from "./inheritence/Cat.js";
 import { Dog } from "./inheritence/Dog.js";
 import { GoldenFish } from "./inheritence/GoldenFish.js";
 import { Pigeon } from "./inheritence/Pigeon.js";
+import { Hamster } from "./inheritence/Hamster.js"
 
 console.clear();
 
@@ -22,3 +23,6 @@ console.log(nemo.voice());
 
 const burkulis = new Pigeon('Burkulis');
 console.log(burkulis.voice());
+
+const timis = new Hamster('Timis');
+console.log(timis.voice());

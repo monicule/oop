@@ -1,5 +1,8 @@
-export class Bird {
+import { Animal } from "./Animal.js";
+
+export class Bird extends Animal {
     constructor(name) {
+        super(name);
         this.name = name;
         this.animalType = '';
         this.legsCount = 2;
