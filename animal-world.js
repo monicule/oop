@@ -1,5 +1,7 @@
 import { Cat } from "./inheritence/Cat.js";
 import { Dog } from "./inheritence/Dog.js";
+import { GoldenFish } from "./inheritence/GoldenFish.js";
+import { Pigeon } from "./inheritence/Pigeon.js";
 
 console.clear();
 
@@ -15,3 +17,8 @@ console.log(rainis.voice());
 const tom = new Cat('Tom', 'animacinis');
 console.log(tom.voice());
 
+const nemo = new GoldenFish('Nemo');
+console.log(nemo.voice());
+
+const burkulis = new Pigeon('Burkulis');
+console.log(burkulis.voice());

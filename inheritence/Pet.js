@@ -1,7 +1,7 @@
 export class Pet {
-    constructor(name, bread) {
+    constructor(name, breed) {
         this.name = name;
-        this.bread = bread;
+        this.breed = breed;
         this.legsCount = 4;
         this.animalType = '';
         this.sound = 'GARSAS';
