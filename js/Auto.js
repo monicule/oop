@@ -7,9 +7,9 @@ export class Auto {
         this.averageFuelConsumption = vidutinesKuroSanaudos;
         this.fuelInTank = this.fuelTankCapacity;
         this.engineOn = false;
-        this.speed = 0;        
+        this.speed = 0;
     }
-    
+
     startTheEngine() {
         if (this.engineOn === true) {
             return 'Įjungto variklio dar kartą įjungti negalima, sugadinsite starterį!';
@@ -21,7 +21,7 @@ export class Auto {
     turnOffTheEngine() {
         if (this.engineOn === false) {
             return 'Variklis jau yra išjungtas. Pakartotinai išjungti nebegalima.';
-        } else if (this.speed !==0) {
+        } else if (this.speed !== 0) {
             return 'Variklį išjungti galima tik automobiliui sustojus!';
         } else {
             return 'Variklis išjungtas.';
@@ -29,7 +29,7 @@ export class Auto {
     }
 
     beginToDrive() {
-        if (this.speed !==0) {
+        if (this.speed !== 0) {
             return 'Pajudėjome iš vietos';
         }
         if (this.fuelInTank < 2 * this.averageFuelConsumption) {
@@ -44,7 +44,7 @@ export class Auto {
     drive() {
         if (this.fuelInTank < this.averageFuelConsumption) {
             return 'Reikia įpilti kuro.';
-        } else {        
+        } else {
             return `Važiuojam! Kuro sanaudos: ${this.averageFuelConsumption}l/100km.`;
         }
     }
@@ -52,8 +52,8 @@ export class Auto {
     stopDriving() {
         this.speed = 0;
         return `Greitis: ${this.speed}km/h. Sustojome.`;
-        }
-    
+    }
+
 
     fuelLeft() {
         return `Kuro likutis bake: ${this.fuelInTank - this.averageFuelConsumption}l.`;
@@ -66,8 +66,5 @@ export class Auto {
         if (this.fuelInTank === this.fuelTankCapacity) {
             return 'Kuro bakas yra pilnas.'
         }
-        if ()
-        } else {
-        return `Reikia įpilti: ${this.fuelTankCapacity-(this.fuelInTank-this.averageFuelConsumption)}l.`;
-        }
     }
+}
